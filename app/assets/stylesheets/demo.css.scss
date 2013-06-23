@@ -1,0 +1,44 @@
+// Place all the styles related to the demo controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#container {
+    position: relative;
+	top: 600px;
+	left: -100px;
+    width: 0px;   
+    margin-left: auto ;   
+    margin-right: auto ;
+}
+.fbFriend {
+	width: 200px; 
+	height: 200px; 
+	-webkit-border-radius: 100px; 
+	-moz-border-radius: 100px;
+	border-radius: 100px; 
+	border:1px dashed blue;
+    text-align: center;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.friendPicture {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.friendName {
+	position: relative;
+	top: 25px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.friendBirthdate {
+	position: relative;
+	top: 140px;
+	font-family: Arial;
+	font-style: italic;
+}
